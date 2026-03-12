@@ -105,15 +105,6 @@ public function destroy($id)
 }
  
 
-public function stats()
-{
-        return response()->json([
-            'total_books' => Book::count(),
-            'damaged_books_count' => Book::where('is_damaged', true)->count(),
-            'most_consulted' => Book::orderBy('borrow_count', 'desc')->first(),
-        ]);
-
-
-        }  
-              }
+  
+ }
 
