@@ -1,11 +1,4 @@
-2.  **Le texte brut au lieu du rendu :** Sur ta capture d'écran, on voit le code source (les balises) au lieu de voir le résultat final (le tableau, les titres en gras, etc.). Cela arrive si l'extension du fichier n'est pas strictement `.md` ou si l'éditeur ne supporte pas le rendu en direct.
-3.  **Les liens mal formatés :** On voit des parenthèses et des crochets qui traînent autour des URLs de GitHub.
 
-### La Solution pour que ça marche sur GitHub :
-
-Pour régler ça, crée un nouveau fichier nommé exactement **`README.md`** à la racine de ton projet et colle **uniquement** ce bloc là (sans rien ajouter avant ou après) :
-
-```markdown
 # GourmetLibrary API
 
 GourmetLibrary est une plateforme numérique de gestion de bibliothèque spécialisée dans les ouvrages culinaires. Développée avec le framework **Laravel 11**, cette API permet de gérer un catalogue de livres, les catégories associées, ainsi qu'un système d'authentification complet pour les utilisateurs et les administrateurs.
