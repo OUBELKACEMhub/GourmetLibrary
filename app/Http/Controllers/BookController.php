@@ -76,12 +76,12 @@ class BookController extends Controller
     $book = Book::findOrFail($id);
 
     $validated = $request->validate([
-        'title' => 'required|string|max:255',
-        'chef_name' => 'required|string',
-        'category_id' => 'required|exists:categories,id',
-        'description' => 'nullable|string',
-        'is_damaged' => 'boolean'
-    ]);
+    'title' => 'required|string|max:255|unique:books,title,' . $id, 
+    'chef_name' => 'required|string',
+    'category_id' => 'required|exists:categories,id',
+    'description' => 'nullable|string',
+    'is_damaged' => 'boolean'
+]);
 
     $validated['slug'] = Str::slug($request->title);
 
