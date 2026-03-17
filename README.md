@@ -29,7 +29,7 @@ GourmetLibrary est une plateforme numérique de gestion de bibliothèque spécia
 
 2. **Installer les dépendances**
 
-    ```bash
+    ```
     composer install
     ```
 
@@ -41,12 +41,12 @@ GourmetLibrary est une plateforme numérique de gestion de bibliothèque spécia
 4. **Base de données**
     - Lancer les migrations et les seeders :
 
-    ```bash
+    ```
     php artisan migrate --seed
     ```
 
 5. **Lancer l'application**
-    ```bash
+    ```
     php artisan serve
     ```
 
