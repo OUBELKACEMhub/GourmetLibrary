@@ -1,6 +1,3 @@
-Voici le code source complet pour votre fichier `README.md`. Vous pouvez le copier directement pour l'ajouter à la racine de votre dépôt GitHub :
-
-````markdown
 # GourmetLibrary API
 
 GourmetLibrary est une plateforme numérique de gestion de bibliothèque spécialisée dans les ouvrages culinaires. Développée avec le framework **Laravel 11**, cette API permet de gérer un catalogue de livres, les catégories associées, ainsi qu'un système d'authentification complet pour les utilisateurs et les administrateurs.
@@ -27,6 +24,7 @@ GourmetLibrary est une plateforme numérique de gestion de bibliothèque spécia
     git clone [https://github.com/votre-utilisateur/GourmetLibrary.git](https://github.com/votre-utilisateur/GourmetLibrary.git)
     cd GourmetLibrary
     ```
+
 ````
 
 2. **Installer les dépendances**
@@ -87,3 +85,4 @@ _Nécessitent un Bearer Token et le middleware `admin.access`_.
 ```
 
 ```
+````
